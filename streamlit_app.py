@@ -114,7 +114,7 @@ st.markdown('## Education 📖', unsafe_allow_html=True)
 
 txt('**LeaderShip**, *Stanford University Graduate School of Business* ','Nov - 2020')
 
-txt('**Master of Business Administration** , *National College of Ireland*, Dublin, leinster',
+txt('**Master of Business Administration**, *National College of Ireland*, Dublin',
 'Sept 2021-Aug 2023')
 
 
