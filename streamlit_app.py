@@ -135,15 +135,15 @@ st.markdown('''
 ## Skills
 ''')
 info = {'skills':[ 'Leadership Management', 'Channel Partners',
-'Program Management ', 'Team Work Management', 'Trouble Shooting','Training ',
+'Program Management ', 'Team Work Management', 'Trouble Shooting','Training Management ',
 'Microsoft Excel',' Cloud Computing','Data Strategies','Solution Selling',
 'Analytical Skills','Account Management','Data Governance',
 'Enterprise Software','Change Management',
-'Budgeting','Team Motivation','Customer Relationship Management',
+'Budget Management','Team Motivation','Customer Relationship Management',
 'Software As Service','Enterprise Customer Management','Business Process Management',
 'Oracle Business Intelligence Enterprise Edition','Vendor Management','Business Process Management'
                    ]}
-skill_col_size = 6
+skill_col_size = 5
 
 st.markdown('## Tools ⚒️', unsafe_allow_html=True)
 
