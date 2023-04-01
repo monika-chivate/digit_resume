@@ -17,7 +17,7 @@ import tensorflow as tf
 from streamlit_player import st_player
 
 
-with open(r"D:\Resume\resume-app-main\resume-app-main\style.css") as f:
+with open(r"style.css") as f:
     st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
 
 
@@ -28,7 +28,7 @@ st.write('''
 ##### *Celebrate Every Tiny Victory* 
 ''')
 
-image = Image.open(r'D:\Resume\resume-app-main\resume-app-main\1597167684746.jpg')
+image = Image.open(r'1597167684746.jpg')
 st.image(image, width=150)
 
 st.markdown('## Summary', unsafe_allow_html=True)
@@ -126,7 +126,7 @@ st.markdown('''
 st.subheader('Career snapshot')
 
 with st.spinner(text="Building line"):
-    with open(r'D:\Resume\resume-app-main\resume-app-main\timeline.json', "r") as f:
+    with open(r'timeline.json', "r") as f:
         data = f.read()
         timeline(data, height=600)
 
