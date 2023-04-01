@@ -11,7 +11,6 @@ import requests
 import re
 import plotly.graph_objects as go
 import io
-import matplotlib.pyplot as plt
 import streamlit.components.v1 as components
 import tensorflow as tf
 from streamlit_player import st_player
